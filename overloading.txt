@@ -1,0 +1,23 @@
+public class Week3a {
+        void display(int a,int b)
+    {
+        System.out.println(a+b);
+    }
+    void add(int a,int b,int c)
+    {
+        System.out.println(a+b+c);
+    }
+    void add(String a,String b)
+    {
+        System.out.println(a+b);
+    }
+    public static void main(String[] args) {
+        Week3a o=new Week3a();
+        o.display("hai","hello");
+        o.display(10,20,30);
+        o.display(10,20);
+    }
+    
+}
+
+

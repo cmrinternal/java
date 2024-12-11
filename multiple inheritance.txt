@@ -1,0 +1,26 @@
+
+interface Printable
+{
+    public void print();
+}
+interface showable
+{
+    public void show();
+}
+
+public class Week3b implements Printable,showable{
+    public void print()
+    {
+        System.out.println("hello");
+    }
+    public void show()
+    {
+        System.out.println("welcome");
+    }
+
+    public static void main(String[] args) {
+        Week3b a=new Week3b();
+        a.print();
+        a.show();
+    }
+}
